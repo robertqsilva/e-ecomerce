@@ -1,0 +1,95 @@
+ * {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+ }
+
+
+main{
+    min-height: 410px;
+}
+
+
+
+
+
+ .container-fluid {
+
+     .svg-logo {
+         vertical-align: middle;
+     }
+
+     .navbar-brand {
+         display: flex;
+         align-items: center;
+
+         .form-control {
+             height: 45px;
+             border-radius: 0;
+             width: 600px;
+
+         }
+
+
+
+     }
+
+     .header-account {
+         margin-right: 10%;
+         display: flex;
+         align-items: center;
+
+         h5 {
+             font-size: 13px;
+             margin: 4px 15px 0px 7px;
+         }
+
+     }
+
+     .carrinho {
+         display: flex;
+         margin-left: 10px;
+         align-items: center;
+     }
+
+     .cart-quantidade {
+         margin-left: 5px;
+         margin-top: 3px;
+     }
+
+     .svg-carrinho {
+         margin-top: 3px;
+     }
+ }
+
+ .navegation {
+     width: 100%;
+     margin-top: 0.7%;
+     background-color: rgba(19, 27, 44, 0.921);
+     height: 40px;
+
+
+     .nav-elements {
+         display: flex;
+         gap: 5px;
+         width: 100%;
+         justify-content: center;
+
+
+
+         .nav-link {
+             color: white;
+             transition: ease 0.5s;
+             width: auto;
+             padding-top: 5px;
+             padding-left: 25px;
+             padding-right: 25px;
+             height: 40px;
+             font-size: 16px;
+         }
+
+         .nav-link:hover {
+             background-color: black;
+         }
+     }
+ }
