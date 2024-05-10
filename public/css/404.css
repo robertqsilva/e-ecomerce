@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono');
+
+
+.center-xy {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+}
+
+html,
+body {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 16px;
+
+}
+
+
+body {
+    background-color: #000;
+}
+
+
+
+.container-14 {
+    width: 100%;
+}
+
+.copy-container-14 {
+    text-align: center;
+}
+
+p {
+    color: #fff;
+    font-size: 24px;
+    letter-spacing: .2px;
+    margin: 0;
+}
+
+.sub, a{
+    font-size: 17px;
+    text-decoration: none;
+    cursor: pointer;
+    color: #fff;
+    margin-top: 40px;
+    transition: letter-spacing ease-in-out 0.4s, color ease-in-out 0.5s;
+
+}
+
+.sub:hover {
+    color: red;
+    letter-spacing: 3px;
+}
+
+   

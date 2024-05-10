@@ -1,19 +1,12 @@
 const { Router } = require("express");
 const router = Router();
 
-router.get("/", (req, res) => {
-  res.render("index", {
-    title: "Weather aa",
-    name: "Andrew Mead",
-  });
-});
+const {indexPage} = require('../controllers/index')
+
+router.get("/", indexPage);
 
 router.get("*", (req, res) => {
-  res.render("404", {
-    title: "404",
-    name: "Andrew Mead",
-    errorMessage: "Page not found.",
-  });
+  res.render("404")
 });
 
 module.exports = router;
